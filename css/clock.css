@@ -1,0 +1,71 @@
+* {
+	padding: 0;
+	margin:	0;
+	box-sizing: border-box;
+}
+
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+	margin: 50px 0;
+}
+
+header .wrapper {
+	background: #000;
+	padding: 20px 0;	
+}
+
+header > .wrapper > h3 {
+	font-size: 36px;
+  text-align: center;
+  color: #fff;
+}
+
+.main-section {
+  margin: 50px 0 0 0;
+}
+
+.main-section .wrapper {
+	width: 50%;	
+}
+
+.main-section > .wrapper > h4 {
+	font-size: 30px;
+	text-align: center;
+	text-shadow: 0 10px 10px rgba(0,0,0,0.5);	
+	text-transform: capitalize;
+	margin: 20px 0;
+}
+
+.main-box {
+	text-align: center;
+  margin: 30px 0;
+}
+
+.clock-box {
+	position: relative;
+	display: inline-block;
+	border: 1px solid #000;
+	font-size: 30px;
+	width: 10%;
+	font-weight: bold;
+	padding: 10px 20px;
+  background: linear-gradient(45deg, #5d5aff, #40c7c7bd);
+	color: #fff;
+	border: none;
+	border-radius: 10px;
+}
+
+.clock-box:not(:last-child) {
+	margin-right: 20px;
+}
+
+.hour:after, .minute:after{
+	position: absolute;
+	content: ':';
+	right: -20%;
+	color: #000;
+}
